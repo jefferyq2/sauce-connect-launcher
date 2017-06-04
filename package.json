@@ -1,8 +1,8 @@
 {
-  "name": "sauce-connect-launcher",
+  "name": "@mocha/sauce-connect-launcher",
   "description": "A library to download and launch Sauce Connect.",
   "version": "1.2.2",
-  "homepage": "https://github.com/bermi/sauce-connect-launcher",
+  "homepage": "https://github.com/mochajs/sauce-connect-launcher",
   "author": "Bermi Ferrer <bermi@bermilabs.com>",
   "main": "lib/sauce-connect-launcher",
   "license": "MIT",
@@ -15,10 +15,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bermi/sauce-connect-launcher"
+    "url": "https://github.com/mochajs/sauce-connect-launcher"
   },
   "scripts": {
-    "postinstall": "node scripts/install.js || nodejs scripts/install.js",
     "test": "make test",
     "version": "git add README.md",
     "lint": "make lint"
